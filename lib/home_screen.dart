@@ -1,5 +1,5 @@
 import 'package:complex_ui/screens/meditation_ui/welcome_screen/med_wel_screen.dart';
-import 'package:complex_ui/screens/travel_ui/trav_wel_screen.dart';
+import 'package:complex_ui/screens/travel_ui/trav_screens/trav_wel_screen.dart';
 import 'package:complex_ui/widgets/home_button.dart';
 import 'package:complex_ui/widgets/home_title.dart';
 import 'package:flutter/material.dart';

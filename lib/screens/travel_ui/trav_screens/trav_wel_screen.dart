@@ -1,3 +1,4 @@
+import 'package:complex_ui/screens/travel_ui/trav_screens/trav_home_screen.dart';
 import 'package:flutter/material.dart';
 
 class TravWelScreen extends StatelessWidget {
@@ -86,7 +87,10 @@ class TravWelScreen extends StatelessWidget {
                       color: Colors.orange.shade300),
                 ),
                 IconButton(
-                    onPressed: () {},
+                    onPressed: () => Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                            builder: (_) => const TravHomeScreen())),
                     icon: Icon(Icons.arrow_right_alt,
                         color: Colors.orange.shade300, size: 40))
               ],
