@@ -12,7 +12,8 @@ class FurDetailsScreen extends StatelessWidget {
       backgroundColor: brownDark,
       body: Stack(
         children: [
-          FurDetShaowImages(images: furniture.img),
+          // images & white Shadow
+          FurDetImages(images: furniture.img),
           Positioned.fill(
             child: SafeArea(
               child: Column(
@@ -75,12 +76,13 @@ class FurDetStandBlackShadow extends StatelessWidget {
   }
 }
 
-class FurDetShaowImages extends StatelessWidget {
-  const FurDetShaowImages({Key? key, required this.images}) : super(key: key);
+class FurDetImages extends StatelessWidget {
+  const FurDetImages({Key? key, required this.images}) : super(key: key);
   final List<String> images;
 
   @override
   Widget build(BuildContext context) {
+    final currentImg = ValueNotifier<int>(0);
     final size = MediaQuery.of(context).size;
     return Stack(
       children: [
@@ -102,35 +104,11 @@ class FurDetShaowImages extends StatelessWidget {
         ),
         // white shadow
         Positioned(
-          top: 0,
-          left: size.width * .2,
-          width: size.width * .8,
-          height: size.height * .7,
-          child: Center(
-            child: Container(
-              decoration: const BoxDecoration(
-                shape: BoxShape.circle,
-                boxShadow: [
-                  BoxShadow(
-                    color: Colors.white24,
-                    spreadRadius: 3,
-                    blurRadius: 30,
-                  ),
-                  BoxShadow(
-                    color: Colors.white12,
-                    spreadRadius: 3,
-                    blurRadius: 80,
-                  ),
-                  BoxShadow(
-                    color: Colors.white10,
-                    spreadRadius: 3,
-                    blurRadius: 80,
-                  )
-                ],
-              ),
-            ),
-          ),
-        ),
+            top: 0,
+            left: size.width * .2,
+            width: size.width * .8,
+            height: size.height * .7,
+            child: _whiteShadow()),
 
         // image
         Positioned(
@@ -138,13 +116,68 @@ class FurDetShaowImages extends StatelessWidget {
           height: size.height * .6,
           width: size.width,
           right: -100,
-          child: Hero(
+          child: PageView.builder(
+            onPageChanged: (value) => currentImg.value = value,
+            itemCount: images.length,
+            itemBuilder: (context, i) => Hero(
               tag: 'details${images[0]}',
-              child: Image.asset(images[0], fit: BoxFit.fitHeight)),
+              child: Image.asset(images[i], fit: BoxFit.fitHeight),
+            ),
+          ),
+        ),
+        // counter Container
+        Positioned(
+          top: size.height * .55,
+          left: size.width * .47,
+          child: SizedBox(
+            height: 10,
+            child: Row(
+              children: List.generate(
+                images.length,
+                (index) => ValueListenableBuilder(
+                  valueListenable: currentImg,
+                  builder: (context, val, _) => Container(
+                    height: 7,
+                    width: index != val ? 11 : 40,
+                    margin: const EdgeInsets.only(right: 7),
+                    decoration: BoxDecoration(
+                      color: index != val ? Colors.white60 : Colors.white,
+                      borderRadius: BorderRadius.circular(10),
+                    ),
+                  ),
+                ),
+              ),
+            ),
+          ),
         ),
       ],
     );
   }
+
+  Widget _whiteShadow() => Center(
+        child: Container(
+          decoration: const BoxDecoration(
+            shape: BoxShape.circle,
+            boxShadow: [
+              BoxShadow(
+                color: Colors.white24,
+                spreadRadius: 3,
+                blurRadius: 30,
+              ),
+              BoxShadow(
+                color: Colors.white12,
+                spreadRadius: 3,
+                blurRadius: 80,
+              ),
+              BoxShadow(
+                color: Colors.white10,
+                spreadRadius: 3,
+                blurRadius: 80,
+              )
+            ],
+          ),
+        ),
+      );
 }
 
 class FurDetailsBody extends StatelessWidget {

@@ -17,6 +17,7 @@ class TravWelScreen extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.end,
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
+            // counter Container
             SizedBox(
               height: 10,
               child: Row(
@@ -44,6 +45,7 @@ class TravWelScreen extends StatelessWidget {
                 'The mere mention of Bali evokes thoughts of a paradise.',
                 style: TextStyle(color: Colors.white70)),
             const SizedBox(height: 50),
+            // profile pics Container
             Container(
               height: 80,
               padding: const EdgeInsets.all(15),
@@ -76,6 +78,7 @@ class TravWelScreen extends StatelessWidget {
               ),
             ),
             const SizedBox(height: 30),
+            // bottom Buttons
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
