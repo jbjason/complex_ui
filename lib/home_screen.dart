@@ -15,7 +15,7 @@ class HomeScreen extends StatelessWidget {
         child: SingleChildScrollView(
           child: Column(
             children: [
-              const HomeTitle(title: 'CHALLENGES'),
+              const HomeTitle(title: 'Complex UI\'s'),
               _project(),
             ],
           ),
@@ -28,6 +28,7 @@ class HomeScreen extends StatelessWidget {
         children: const [
           HomeButton(title: 'Meditation UI', route: MedWelScreen()),
           HomeButton(title: 'Travel UI', route: TravWelScreen()),
+          HomeButton(title: 'Furniture UI', route: TravWelScreen()),
         ],
       );
 }
