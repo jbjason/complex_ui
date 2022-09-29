@@ -1,3 +1,4 @@
+import 'package:complex_ui/screens/furniture_ui/fur_home/fur_home_screen.dart';
 import 'package:complex_ui/screens/meditation_ui/welcome_screen/med_wel_screen.dart';
 import 'package:complex_ui/screens/travel_ui/trav_screens/trav_wel_screen.dart';
 import 'package:complex_ui/widgets/home_button.dart';
@@ -28,7 +29,7 @@ class HomeScreen extends StatelessWidget {
         children: const [
           HomeButton(title: 'Meditation UI', route: MedWelScreen()),
           HomeButton(title: 'Travel UI', route: TravWelScreen()),
-          HomeButton(title: 'Furniture UI', route: TravWelScreen()),
+          HomeButton(title: 'Furniture UI', route: FurHomeScreen()),
         ],
       );
 }
