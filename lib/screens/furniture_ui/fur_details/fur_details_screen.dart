@@ -136,7 +136,8 @@ class FurDetImages extends StatelessWidget {
                 images.length,
                 (index) => ValueListenableBuilder(
                   valueListenable: currentImg,
-                  builder: (context, val, _) => Container(
+                  builder: (context, val, _) => AnimatedContainer(
+                    duration: const Duration(milliseconds: 300),
                     height: 7,
                     width: index != val ? 11 : 40,
                     margin: const EdgeInsets.only(right: 7),
