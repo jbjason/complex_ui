@@ -30,6 +30,7 @@ class HomeScreen extends StatelessWidget {
           HomeButton(title: 'Meditation UI', route: MedWelScreen()),
           HomeButton(title: 'Travel UI', route: TravWelScreen()),
           HomeButton(title: 'Furniture UI', route: FurHomeScreen()),
+          HomeButton(title: 'MyDoc UI', route: FurHomeScreen()),
         ],
       );
 }
