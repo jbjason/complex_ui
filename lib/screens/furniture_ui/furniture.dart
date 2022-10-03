@@ -39,19 +39,6 @@ final furnitures = [
     price: '\$ 18.90',
   ),
   const Furniture(
-    title: 'Oscillating Fan',
-    details:
-        'The User-friendly front operation panel and remote and control system.detail',
-    img: [
-      'assets/furniture/fur_img/fan3.png',
-      'assets/furniture/fur_img/fan1.png',
-      'assets/furniture/fur_img/fan2.png',
-      'assets/furniture/fur_img/fan0.png',
-    ],
-    colors: colors,
-    price: '\$ 22.67',
-  ),
-  const Furniture(
     title: 'Bend Chair',
     details:
         'The User-friendly front operation panel and remote and control system.detail',
@@ -75,5 +62,18 @@ final furnitures = [
     ],
     colors: colors,
     price: '\$ 26.00',
+  ),
+  const Furniture(
+    title: 'Oscillating Fan',
+    details:
+        'The User-friendly front operation panel and remote and control system.detail',
+    img: [
+      'assets/furniture/fur_img/fan3.png',
+      'assets/furniture/fur_img/fan1.png',
+      'assets/furniture/fur_img/fan2.png',
+      'assets/furniture/fur_img/fan0.png',
+    ],
+    colors: colors,
+    price: '\$ 22.67',
   ),
 ];

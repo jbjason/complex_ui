@@ -40,10 +40,22 @@ class FurHomeProducts extends StatelessWidget {
                 Container(
                   height: 90,
                   margin: const EdgeInsets.only(right: 70),
-                  decoration: const BoxDecoration(
-                    borderRadius:
-                        BorderRadius.only(bottomRight: Radius.circular(70)),
+                  decoration: BoxDecoration(
+                    borderRadius: const BorderRadius.only(
+                        bottomRight: Radius.circular(70)),
                     color: Colors.white,
+                    boxShadow: [
+                      BoxShadow(
+                        color: Colors.grey[500]!,
+                        spreadRadius: 1,
+                        blurRadius: 50,
+                      ),
+                      const BoxShadow(
+                        color: Colors.white,
+                        spreadRadius: 3,
+                        blurRadius: 80,
+                      )
+                    ],
                   ),
                   child: Stack(
                     clipBehavior: Clip.none,
