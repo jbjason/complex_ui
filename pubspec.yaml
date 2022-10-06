@@ -59,6 +59,8 @@ flutter:
     - assets/travel/place/
     - assets/furniture/fur_icon/
     - assets/furniture/fur_img/
+    - assets/mydoc/doc_icon/
+    - assets/mydoc/icon/
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
