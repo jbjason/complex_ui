@@ -34,15 +34,15 @@ class FurHomeAppBar extends StatelessWidget {
                     color: orangeDark,
                     boxShadow: const [
                       BoxShadow(
-                        color: orangeDark,
-                        spreadRadius: 1,
-                        blurRadius: 30,
-                      ),
+                          color: orangeDark,
+                          spreadRadius: 1,
+                          blurRadius: 20,
+                          offset: Offset(2, 2)),
                       BoxShadow(
-                        color: Colors.white,
-                        spreadRadius: 3,
-                        blurRadius: 80,
-                      )
+                          color: Colors.white,
+                          spreadRadius: 2,
+                          blurRadius: 20,
+                          offset: Offset(-5, -5))
                     ],
                   ),
                   child: Row(

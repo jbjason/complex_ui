@@ -17,7 +17,7 @@ class HomeScreen extends StatelessWidget {
         child: SingleChildScrollView(
           child: Column(
             children: [
-              const HomeTitle(title: 'Complex UI\'s'),
+              const HomeTitle(title: 'COMPLEX UI'),
               _project(),
             ],
           ),

@@ -22,9 +22,10 @@ class HomeButton extends StatelessWidget {
         ),
         child: Stack(
           children: [
+            // Right small Circle
             Positioned(
-              top: -140,
-              right: -100,
+              top: 40,
+              right: -90,
               width: 200,
               height: 200,
               child: Container(
@@ -35,10 +36,12 @@ class HomeButton extends StatelessWidget {
                 ),
               ),
             ),
-            Positioned.fill(
-              top: -50,
-              left: -300,
-              bottom: -50,
+            // left Big Circle
+            Positioned(
+              top: 0,
+              left: -100,
+              height: 200,
+              width: 200,
               child: Container(
                 decoration: BoxDecoration(
                   shape: BoxShape.circle,

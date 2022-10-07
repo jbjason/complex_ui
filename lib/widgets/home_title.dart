@@ -7,13 +7,11 @@ class HomeTitle extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       height: 120,
-      margin: const EdgeInsets.symmetric(vertical: 20),
+      margin: const EdgeInsets.symmetric(vertical: 20, horizontal: 30),
       decoration: const BoxDecoration(
         gradient: RadialGradient(colors: [
           Colors.white,
-          Colors.white70,
           Colors.white60,
-          Colors.white38,
         ], focal: Alignment.centerLeft),
       ),
       child: Center(
