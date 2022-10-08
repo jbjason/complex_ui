@@ -54,7 +54,7 @@ class DocDetailsScreen extends StatelessWidget {
         navColor: blueDark,
         floatBackColor: blueDark,
         floatColor: dFloatColor,
-        floatShadow: [blueDark, dFloatColor.withOpacity(0.5)],
+        floatShadow: [blueDark, dFloatColor.withOpacity(0.6)],
       ),
     );
   }

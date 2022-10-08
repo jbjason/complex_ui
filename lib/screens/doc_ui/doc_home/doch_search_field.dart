@@ -9,47 +9,69 @@ class DocHSearchField extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      margin: const EdgeInsets.symmetric(horizontal: 25, vertical: 5),
+      margin: const EdgeInsets.symmetric(horizontal: 30),
       child: Container(
-        padding: const EdgeInsets.symmetric(horizontal: 15),
+        height: 45,
+        padding: const EdgeInsets.all(3),
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(30),
-          border:
-              const Border.fromBorderSide(BorderSide(color: Colors.black12)),
-          // boxShadow: [
-          // BoxShadow(
-          //   color: blueDark.withOpacity(0.5),
-          //   blurRadius: 10,
-          //   spreadRadius: 1,
-          // )
-          //  ],
-          gradient: LinearGradient(
-            begin: Alignment.topLeft,
-            end: Alignment.bottomRight,
-            colors: [
-              blueDark.withOpacity(0.5),
-              blueDark.withOpacity(0.3),
-              blueDark.withOpacity(0.2),
-              blueDark.withOpacity(0.3),
-              blueDark.withOpacity(0.5),
-            ],
-          ),
-        ),
-        child: const TextField(
-          textAlign: TextAlign.start,
-          style: TextStyle(color: ashhLight),
-          cursorColor: Colors.white,
-          decoration: InputDecoration(
-            fillColor: Colors.red,
-            labelText: 'Search...',
-            labelStyle: TextStyle(
-              fontSize: 16, // or whatever
-              height: 1.4,
-              color: ashhLight,
+          boxShadow: [
+            BoxShadow(
+              color: dFloatColor.withOpacity(.3),
+              offset: const Offset(-0.5, 0.5),
+              blurRadius: 1.0,
+              spreadRadius: 1.0,
             ),
-            border: InputBorder.none,
-            suffixIcon: Icon(Icons.search, color: ashhLight),
-            contentPadding: EdgeInsets.symmetric(horizontal: 20),
+            const BoxShadow(
+              color: blueDark,
+              offset: Offset(1.5, -2.5),
+              blurRadius: 1.0,
+              spreadRadius: 2.5,
+            ),
+          ],
+        ),
+        child: Container(
+          decoration: BoxDecoration(
+            borderRadius: BorderRadius.circular(40),
+            boxShadow: [
+              BoxShadow(
+                color: dFloatColor.withOpacity(.3),
+                offset: const Offset(-0.5, 0.5),
+                blurRadius: 1.0,
+                spreadRadius: 1.0,
+              ),
+              BoxShadow(
+                color: searchColor.withOpacity(0.3),
+                offset: const Offset(5.0, -5.0),
+                blurRadius: 1.0,
+                spreadRadius: 1.0,
+              ),
+            ],
+            gradient: LinearGradient(
+              colors: [
+                searchColor,
+                searchColor.withOpacity(0.8),
+                searchColor.withOpacity(0.5),
+                searchColor.withOpacity(0.3),
+              ],
+            ),
+          ),
+          child: const TextField(
+            textAlign: TextAlign.start,
+            style: TextStyle(color: ashhLight),
+            cursorColor: buttonColor,
+            decoration: InputDecoration(
+              fillColor: Colors.red,
+              labelText: 'Search...',
+              labelStyle: TextStyle(
+                fontSize: 13, // or whatever
+                height: 1.4,
+                color: ashhLight,
+              ),
+              border: InputBorder.none,
+              suffixIcon: Icon(Icons.search, color: buttonColor),
+              contentPadding: EdgeInsets.symmetric(horizontal: 20),
+            ),
           ),
         ),
       ),

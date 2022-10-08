@@ -12,7 +12,7 @@ class DocHBlueBody extends StatelessWidget {
     return Column(
       children: [
         const DocHSearchField(),
-        const SizedBox(height: 10),
+        const SizedBox(height: 15),
         Expanded(
           child: Row(
             children: [
@@ -27,16 +27,10 @@ class DocHBlueBody extends StatelessWidget {
                     ),
                     boxShadow: const [
                       BoxShadow(
-                        offset: Offset(-5, 0),
-                        color: blueMDark,
-                        spreadRadius: 1,
-                        blurRadius: 30,
-                      ),
-                      BoxShadow(
-                        offset: Offset(5, 0),
-                        color: blueLight,
-                        spreadRadius: 1,
-                        blurRadius: 10,
+                        offset: Offset(-5, 3),
+                        color: blueDark,
+                        spreadRadius: 2,
+                        blurRadius: 70,
                       ),
                     ],
                   ),
@@ -44,7 +38,6 @@ class DocHBlueBody extends StatelessWidget {
                     margin: const EdgeInsets.all(5),
                     padding: const EdgeInsets.all(25),
                     decoration: BoxDecoration(
-                      border: Border.all(color: dFloatColor, width: 0.5),
                       borderRadius: const BorderRadius.only(
                         topLeft: Radius.circular(10),
                         topRight: Radius.circular(33),
@@ -58,6 +51,20 @@ class DocHBlueBody extends StatelessWidget {
                           blueDark,
                         ],
                       ),
+                      boxShadow: const [
+                        BoxShadow(
+                          offset: Offset(-5, 5),
+                          color: blueDark,
+                          spreadRadius: 2,
+                          blurRadius: 20,
+                        ),
+                        BoxShadow(
+                          offset: Offset(1, -1),
+                          color: dFloatColor,
+                          spreadRadius: 2,
+                          blurRadius: 10,
+                        ),
+                      ],
                     ),
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.stretch,

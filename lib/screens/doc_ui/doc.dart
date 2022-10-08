@@ -9,6 +9,7 @@ const ashhLight = Color(0xFFD7D9EE);
 const buttonColor = Color(0xFFE7E9F6);
 const dFloatColor = Color(0xFF8F90F3);
 const buttonColor2 = Colors.grey;
+const searchColor = Color(0xFF292F51);
 
 class MyDoc {
   final String title, img, subTitle;

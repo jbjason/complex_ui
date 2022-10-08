@@ -66,7 +66,7 @@ class DocHomeScreen extends StatelessWidget {
       bottomNavigationBar: const DocNavBar(
         screen: 'home',
         navColor: ashDark,
-        floatShadow: [blueDark, Colors.white54],
+        floatShadow: [Colors.white, dFloatColor],
         floatColor: blueLight,
         floatBackColor: ashhLight,
       ),
