@@ -30,10 +30,10 @@ class FurDetImagesCounter extends StatelessWidget {
         ),
         // image
         Positioned(
-          top: 40,
-          height: size.height * .6,
-          width: size.width,
-          right: -50,
+          top: 0,
+          height: size.height * .7,
+          width: size.width * .8,
+          right: 0,
           child: PageView.builder(
             onPageChanged: (value) => currentImg.value = value,
             itemCount: images.length,

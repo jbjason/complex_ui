@@ -43,9 +43,9 @@ final furnitures = [
     details:
         'The User-friendly front operation panel and remote and control system.detail',
     img: [
-      'assets/furniture/fur_img/chair2.png',
-      'assets/furniture/fur_img/chair1.png',
       'assets/furniture/fur_img/chair0.png',
+      'assets/furniture/fur_img/chair1.png',
+      'assets/furniture/fur_img/chair2.png',
       'assets/furniture/fur_img/chair3.png',
     ],
     colors: colors,
@@ -55,8 +55,8 @@ final furnitures = [
     title: 'Alarm Clock',
     details: detail,
     img: [
-      'assets/furniture/fur_img/alarm2.png',
       'assets/furniture/fur_img/alarm1.png',
+      'assets/furniture/fur_img/alarm2.png',
       'assets/furniture/fur_img/alarm0.png',
       'assets/furniture/fur_img/alarm3.png',
     ],
