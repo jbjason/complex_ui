@@ -6,22 +6,25 @@ class HomeTitle extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 120,
-      margin: const EdgeInsets.symmetric(vertical: 20, horizontal: 30),
+      height: 250,
+      width: 250,
+      margin: const EdgeInsets.symmetric(horizontal: 30),
+      alignment: Alignment.center,
       decoration: const BoxDecoration(
         gradient: RadialGradient(colors: [
           Colors.white,
+          Colors.white,
           Colors.white60,
+          Colors.white38,
+          Colors.white12,
         ], focal: Alignment.centerLeft),
       ),
-      child: Center(
-        child: Text(
-          title,
-          style: TextStyle(
-              fontSize: 25,
-              fontWeight: FontWeight.bold,
-              color: Colors.grey[700]!),
-        ),
+      child: Text(
+        title,
+        style: TextStyle(
+            fontSize: 25,
+            fontWeight: FontWeight.bold,
+            color: Colors.grey[700]!),
       ),
     );
   }
