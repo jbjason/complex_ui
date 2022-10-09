@@ -61,6 +61,8 @@ flutter:
     - assets/furniture/fur_img/
     - assets/mydoc/doc_icon/
     - assets/mydoc/icon/
+    - assets/car/car_icon/
+    - assets/car/car_img/
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
