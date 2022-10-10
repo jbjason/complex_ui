@@ -11,7 +11,7 @@ class DocHSearchField extends StatelessWidget {
     return Container(
       margin: const EdgeInsets.symmetric(horizontal: 30),
       child: Container(
-        height: 45,
+        height: 42,
         padding: const EdgeInsets.all(3),
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(30),
@@ -65,7 +65,7 @@ class DocHSearchField extends StatelessWidget {
               labelText: 'Search...',
               labelStyle: TextStyle(
                 fontSize: 13, // or whatever
-                height: 1.4,
+                height: 1,
                 color: ashhLight,
               ),
               border: InputBorder.none,
