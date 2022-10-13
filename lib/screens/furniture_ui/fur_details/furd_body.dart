@@ -1,10 +1,10 @@
-import 'package:complex_ui/screens/furniture_ui/fur_details/furdet_body_title_counter.dart';
-import 'package:complex_ui/screens/furniture_ui/fur_details/furdet_colors.dart';
+import 'package:complex_ui/screens/furniture_ui/fur_details/furd_body_title_counter.dart';
+import 'package:complex_ui/screens/furniture_ui/fur_details/furd_colors.dart';
 import 'package:complex_ui/screens/furniture_ui/furniture.dart';
 import 'package:flutter/material.dart';
 
-class FurDetBody extends StatelessWidget {
-  const FurDetBody({Key? key, required this.furniture}) : super(key: key);
+class FurDBody extends StatelessWidget {
+  const FurDBody({Key? key, required this.furniture}) : super(key: key);
   final Furniture furniture;
 
   @override
@@ -21,10 +21,10 @@ class FurDetBody extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           // colors
-          FavDetColors(colors: furniture.colors),
+          FurDColors(colors: furniture.colors),
           const SizedBox(height: 30),
           // Title & Quantity counter
-          FurDetBodyTitleCounter(title: furniture.title),
+          FurDBodyTitleCounter(title: furniture.title),
           const SizedBox(height: 20),
           // details
           Text(

@@ -1,3 +1,5 @@
+import 'package:complex_ui/screens/doc_ui/doc_details/doc_details_screen.dart';
+import 'package:complex_ui/screens/doc_ui/doc_home/doc_home_screen.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:complex_ui/screens/doc_ui/common_widgets/doc_float_button.dart';
@@ -43,13 +45,34 @@ class DocNavBar extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.spaceAround,
                   crossAxisAlignment: CrossAxisAlignment.end,
                   children: [
-                    Image.asset('assets/mydoc/icon/home.png',
-                        color: buttonColor,
-                        width: 30,
-                        height: 30,
-                        fit: BoxFit.contain),
+                    InkWell(
+                      onTap: () {
+                        isTrue
+                            ? null
+                            : Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                    builder: (_) => const DocHomeScreen()));
+                      },
+                      child: Image.asset('assets/mydoc/icon/home.png',
+                          color: buttonColor,
+                          width: 30,
+                          height: 30,
+                          fit: BoxFit.contain),
+                    ),
                     const SizedBox(width: 1),
-                    const Icon(CupertinoIcons.clock, color: buttonColor),
+                    InkWell(
+                      onTap: () {
+                        isTrue
+                            ? Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                    builder: (_) => const DocDetailsScreen()))
+                            : null;
+                      },
+                      child:
+                          const Icon(CupertinoIcons.clock, color: buttonColor),
+                    ),
                   ],
                 ),
               ),

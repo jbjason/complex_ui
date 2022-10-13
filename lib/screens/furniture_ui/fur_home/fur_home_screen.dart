@@ -1,8 +1,8 @@
-import 'package:complex_ui/screens/furniture_ui/fur_home/furhome_appbar.dart';
-import 'package:complex_ui/screens/furniture_ui/fur_home/furhome_category.dart';
-import 'package:complex_ui/screens/furniture_ui/fur_home/furhome_products.dart';
+import 'package:complex_ui/screens/furniture_ui/fur_home/furh_appbar.dart';
+import 'package:complex_ui/screens/furniture_ui/fur_home/furh_category.dart';
+import 'package:complex_ui/screens/furniture_ui/fur_home/furh_products.dart';
 import 'package:flutter/material.dart';
-import 'package:complex_ui/screens/furniture_ui/fur_home/fur_navbar.dart';
+import 'package:complex_ui/screens/furniture_ui/fur_home/furh_navbar.dart';
 import 'package:complex_ui/screens/furniture_ui/furniture.dart';
 
 class FurHomeScreen extends StatelessWidget {
@@ -19,13 +19,13 @@ class FurHomeScreen extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: const [
               // Appbar ,Title & Subtile
-              FurHomeAppBar(),
+              FurHAppBar(),
               SizedBox(height: 3),
               // category
-              FurHomeCategory(),
+              FurHCategory(),
               SizedBox(height: 10),
               // products List
-              FurHomeProducts(),
+              FurHProducts(),
             ],
           ),
         ),
@@ -33,7 +33,7 @@ class FurHomeScreen extends StatelessWidget {
       extendBody: true,
       floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
       floatingActionButton: _floatButton(),
-      bottomNavigationBar: const FurNavBar(),
+      bottomNavigationBar: const FurHNavBar(),
     );
   }
 

@@ -11,7 +11,7 @@ class DocHSearchField extends StatelessWidget {
     return Container(
       margin: const EdgeInsets.symmetric(horizontal: 30),
       child: Container(
-        height: 42,
+        height: 40,
         padding: const EdgeInsets.all(3),
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(30),

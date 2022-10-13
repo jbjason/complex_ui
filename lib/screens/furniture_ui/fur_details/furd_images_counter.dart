@@ -1,9 +1,8 @@
-import 'package:complex_ui/screens/furniture_ui/furniture.dart';
 import 'package:flutter/material.dart';
 import 'dart:math' as math;
 
-class FurDetImagesCounter extends StatelessWidget {
-  const FurDetImagesCounter({Key? key, required this.images}) : super(key: key);
+class FurDImagesCounter extends StatelessWidget {
+  const FurDImagesCounter({Key? key, required this.images}) : super(key: key);
   final List<String> images;
 
   @override
@@ -20,8 +19,7 @@ class FurDetImagesCounter extends StatelessWidget {
             angle: 60 * 180 / math.pi,
             child: Row(
               children: [
-                Container(width: 55, color: Colors.white38),
-                Container(width: 60, color: brownLight),
+                Container(width: 55, color: Colors.white54),
                 Container(width: 55, color: Colors.white30),
                 Container(width: 50, color: Colors.white12),
               ],

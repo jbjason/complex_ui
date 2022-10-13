@@ -28,7 +28,7 @@ class DocDBlueBody extends StatelessWidget {
             alignment: Alignment.topCenter,
             child: UnconstrainedBox(
               child: Container(
-                width: 50,
+                width: 47,
                 height: isTrue ? size.height * .27 : size.height * .2,
                 margin: const EdgeInsets.only(right: 20),
                 decoration: BoxDecoration(

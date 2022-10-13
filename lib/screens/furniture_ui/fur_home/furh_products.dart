@@ -2,8 +2,8 @@ import 'package:complex_ui/screens/furniture_ui/fur_details/fur_details_screen.d
 import 'package:complex_ui/screens/furniture_ui/furniture.dart';
 import 'package:flutter/material.dart';
 
-class FurHomeProducts extends StatelessWidget {
-  const FurHomeProducts({Key? key}) : super(key: key);
+class FurHProducts extends StatelessWidget {
+  const FurHProducts({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

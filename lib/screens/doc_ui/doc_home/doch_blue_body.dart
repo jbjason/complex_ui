@@ -12,7 +12,7 @@ class DocHBlueBody extends StatelessWidget {
     return Column(
       children: [
         const DocHSearchField(),
-        const SizedBox(height: 15),
+        const SizedBox(height: 20),
         Expanded(
           child: Row(
             children: [

@@ -1,13 +1,13 @@
 import 'package:complex_ui/screens/furniture_ui/furniture.dart';
 import 'package:flutter/material.dart';
 
-class FurHomeCategory extends StatefulWidget {
-  const FurHomeCategory({Key? key}) : super(key: key);
+class FurHCategory extends StatefulWidget {
+  const FurHCategory({Key? key}) : super(key: key);
   @override
-  State<FurHomeCategory> createState() => _FurHomeCategoryState();
+  State<FurHCategory> createState() => _FurHCategoryState();
 }
 
-class _FurHomeCategoryState extends State<FurHomeCategory> {
+class _FurHCategoryState extends State<FurHCategory> {
   int isSelect = 0;
   @override
   Widget build(BuildContext context) {
@@ -29,16 +29,16 @@ class _FurHomeCategoryState extends State<FurHomeCategory> {
                     borderRadius: BorderRadius.circular(16),
                     boxShadow: const [
                       BoxShadow(
-                        color: brownLight,
-                        spreadRadius: 2,
-                        blurRadius: 80,
-                        offset: Offset(-5, -5),
+                        color: brownDark,
+                        spreadRadius: 1,
+                        blurRadius: 10,
+                        offset: Offset(0, 5),
                       ),
                       BoxShadow(
                         color: Colors.white,
-                        spreadRadius: 4,
-                        blurRadius: 80,
-                        offset: Offset(-5, -5),
+                        spreadRadius: 1,
+                        blurRadius: 30,
+                        offset: Offset(0, -5),
                       ),
                     ],
                     gradient: const LinearGradient(

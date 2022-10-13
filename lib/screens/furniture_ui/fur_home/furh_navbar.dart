@@ -2,8 +2,8 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:complex_ui/screens/furniture_ui/furniture.dart';
 
-class FurNavBar extends StatelessWidget {
-  const FurNavBar({Key? key}) : super(key: key);
+class FurHNavBar extends StatelessWidget {
+  const FurHNavBar({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

@@ -1,9 +1,8 @@
 import 'package:complex_ui/screens/furniture_ui/furniture.dart';
 import 'package:flutter/material.dart';
 
-class FurDetBodyTitleCounter extends StatelessWidget {
-  const FurDetBodyTitleCounter({Key? key, required this.title})
-      : super(key: key);
+class FurDBodyTitleCounter extends StatelessWidget {
+  const FurDBodyTitleCounter({Key? key, required this.title}) : super(key: key);
   final String title;
 
   @override

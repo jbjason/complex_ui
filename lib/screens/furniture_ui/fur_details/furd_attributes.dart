@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class FurDetAttributes extends StatelessWidget {
-  const FurDetAttributes({Key? key}) : super(key: key);
+class FurDAttributes extends StatelessWidget {
+  const FurDAttributes({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

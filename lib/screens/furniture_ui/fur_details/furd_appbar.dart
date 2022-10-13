@@ -1,8 +1,8 @@
 import 'package:complex_ui/screens/furniture_ui/furniture.dart';
 import 'package:flutter/material.dart';
 
-class FurDetAppBar extends StatelessWidget {
-  const FurDetAppBar({Key? key, required this.title}) : super(key: key);
+class FurDAppBar extends StatelessWidget {
+  const FurDAppBar({Key? key, required this.title}) : super(key: key);
   final String title;
   @override
   Widget build(BuildContext context) {
