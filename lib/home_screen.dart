@@ -1,4 +1,5 @@
 import 'package:complex_ui/screens/car_ui/car_home/car_home_screen.dart';
+import 'package:complex_ui/screens/cartoon_ui/cart_welcome/cart_welcome_screen.dart';
 import 'package:complex_ui/screens/doc_ui/doc_home/doc_home_screen.dart';
 import 'package:complex_ui/screens/furniture_ui/fur_home/fur_home_screen.dart';
 import 'package:complex_ui/screens/meditation_ui/welcome_screen/med_wel_screen.dart';
@@ -30,10 +31,11 @@ class HomeScreen extends StatelessWidget {
   Widget _project() => Column(
         children: const [
           HomeButton(title: 'Furniture UI', route: FurHomeScreen()),
-          HomeButton(title: 'Travel UI', route: TravWelScreen()),
+          HomeButton(title: '3D Cartoon UI', route: CartWelcomeScreen()),
           HomeButton(title: 'Meditation UI', route: MedWelScreen()),
           HomeButton(title: 'MyDoc UI', route: DocHomeScreen()),
           HomeButton(title: 'Super Car UI', route: CarHomeScreen()),
+          HomeButton(title: 'Travel UI', route: TravWelScreen()),
         ],
       );
 }

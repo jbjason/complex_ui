@@ -63,6 +63,8 @@ flutter:
     - assets/mydoc/icon/
     - assets/car/car_icon/
     - assets/car/car_img/
+    - assets/cartoon/cartoon_img/
+    - assets/cartoon/cartoon_icon/
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
@@ -76,12 +78,12 @@ flutter:
   # "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
   # example:
-  # fonts:
-  #   - family: Schyler
-  #     fonts:
-  #       - asset: fonts/Schyler-Regular.ttf
-  #       - asset: fonts/Schyler-Italic.ttf
-  #         style: italic
+  fonts:
+    - family: TitleFont
+      fonts:
+        - asset: assets/cartoon/cartoon_font/title_font.ttf
+        - asset: assets/cartoon/cartoon_font/title_font1.ttf
+          style: italic
   #   - family: Trajan Pro
   #     fonts:
   #       - asset: fonts/TrajanPro.ttf
