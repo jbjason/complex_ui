@@ -39,8 +39,8 @@ class CartWTextAndImage extends StatelessWidget {
   Widget _driveText() => const Text(
         'Drive  ',
         style: TextStyle(
-            fontSize: 60,
-            color: textColor,
+            fontSize: 63,
+            color: blueBack,
             fontFamily: 'TitleFont',
             fontStyle: FontStyle.italic),
       );

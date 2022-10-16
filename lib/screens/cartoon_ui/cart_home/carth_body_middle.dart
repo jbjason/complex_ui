@@ -36,7 +36,8 @@ class CartHBodyMiddle extends StatelessWidget {
           child: ClipPath(
             clipper: CartHBodyMiddleClip(),
             child: Container(
-              padding: const EdgeInsets.symmetric(horizontal: 40, vertical: 30),
+              padding: const EdgeInsets.only(
+                  left: 40, right: 40, bottom: 50, top: 40),
               decoration: const BoxDecoration(
                 gradient: LinearGradient(
                   begin: Alignment.topCenter,

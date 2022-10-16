@@ -40,11 +40,11 @@ class CartHomeScreen extends StatelessWidget {
               top: size.height * .46,
               left: 0,
               right: 0,
-              height: size.height * .18,
+              height: size.height * .2,
               child: const CartHBodyMiddle(),
             ),
             Positioned(
-              top: size.height * .6,
+              top: size.height * .61,
               left: 0,
               right: 0,
               height: size.height * .37,

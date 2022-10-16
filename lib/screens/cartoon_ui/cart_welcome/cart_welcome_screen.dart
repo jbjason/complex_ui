@@ -21,8 +21,6 @@ class CartWelcomeScreen extends StatelessWidget {
           clipBehavior: Clip.none,
           children: [
             Positioned.fill(
-              // bottom: 2,
-              // top: 2,
               child: ClipPath(
                 clipper: CartWClipper(),
                 child: Container(

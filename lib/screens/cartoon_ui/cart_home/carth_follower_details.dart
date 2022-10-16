@@ -11,7 +11,7 @@ class CartHFollowerDetails extends StatelessWidget {
     return Row(
       mainAxisAlignment: MainAxisAlignment.spaceAround,
       children: [
-        _followersText('${cartoonUser[0].number} ', ''),
+        _followersText('${cartoonUser[6].number} ', ''),
         SizedBox(
           height: 85,
           width: 85,
