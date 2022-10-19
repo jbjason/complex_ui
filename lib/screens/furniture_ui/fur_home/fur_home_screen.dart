@@ -3,7 +3,6 @@ import 'package:complex_ui/screens/furniture_ui/fur_home/furh_category.dart';
 import 'package:complex_ui/screens/furniture_ui/fur_home/furh_products.dart';
 import 'package:flutter/material.dart';
 import 'package:complex_ui/screens/furniture_ui/fur_home/furh_navbar.dart';
-import 'package:complex_ui/screens/furniture_ui/furniture.dart';
 
 class FurHomeScreen extends StatelessWidget {
   const FurHomeScreen({Key? key}) : super(key: key);
@@ -31,21 +30,7 @@ class FurHomeScreen extends StatelessWidget {
         ),
       ),
       extendBody: true,
-      floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
-      floatingActionButton: _floatButton(),
       bottomNavigationBar: const FurHNavBar(),
     );
   }
-
-  Widget _floatButton() => FloatingActionButton(
-        onPressed: () {},
-        backgroundColor: brownDark,
-        child: Image.asset(
-          'assets/furniture/fur_icon/cart.png',
-          color: Colors.white,
-          height: 50,
-          width: 30,
-          fit: BoxFit.contain,
-        ),
-      );
 }
