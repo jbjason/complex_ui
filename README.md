@@ -1,6 +1,7 @@
 # Furniture App UI
-<div style="width: 30%; height: 30%"> ![Screenshot_20221030-105905](https://user-images.githubusercontent.com/62088928/199098258-76eca168-1bad-4e50-b92e-b89b938db981.jpg) </div>
-<div style="width: 30%; height: 30%"> ![Screenshot_20221030-105958](https://user-images.githubusercontent.com/62088928/199098281-847f490a-5f03-48b7-a8f8-0838f44c4402.jpg) </div>
+
+![Screenshot_20221030-105905](https://user-images.githubusercontent.com/62088928/199099527-8bb59db7-0396-48f3-a890-5eadfe692f58.jpg)![Screenshot_20221030-105958](https://user-images.githubusercontent.com/62088928/199099546-d9bd3f31-3b62-4eca-9bda-53cfbe14cfd2.jpg)
+
 
 
 
