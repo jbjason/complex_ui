@@ -38,10 +38,13 @@ class CarDSpecification extends StatelessWidget {
         child: Column(
           children: [
             Expanded(
-              child: Image.asset(
-                spec.img,
-                fit: BoxFit.contain,
-                color: hInActiveColor,
+              child: Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: Image.asset(
+                  spec.img,
+                  fit: BoxFit.cover,
+                  // color: Colors.grey[400],
+                ),
               ),
             ),
             Padding(
