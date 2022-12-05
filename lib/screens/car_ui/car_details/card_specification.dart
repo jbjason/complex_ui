@@ -40,11 +40,7 @@ class CarDSpecification extends StatelessWidget {
             Expanded(
               child: Padding(
                 padding: const EdgeInsets.all(8.0),
-                child: Image.asset(
-                  spec.img,
-                  fit: BoxFit.cover,
-                  // color: Colors.grey[400],
-                ),
+                child: Image.asset(spec.img, fit: BoxFit.cover),
               ),
             ),
             Padding(
