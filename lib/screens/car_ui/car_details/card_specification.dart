@@ -37,7 +37,13 @@ class CarDSpecification extends StatelessWidget {
         margin: const EdgeInsets.only(right: 20),
         child: Column(
           children: [
-            Expanded(child: Image.asset(spec.img, fit: BoxFit.contain)),
+            Expanded(
+              child: Image.asset(
+                spec.img,
+                fit: BoxFit.contain,
+                color: hInActiveColor,
+              ),
+            ),
             Padding(
               padding: const EdgeInsets.all(10),
               child: RichText(
