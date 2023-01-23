@@ -1,6 +1,9 @@
 # MyDoc App UI
 <img width=30% height=14% src="https://user-images.githubusercontent.com/62088928/201593180-574efe57-50aa-4d8c-b01f-634d35090667.jpg">     <img width=30% height=14% src="https://user-images.githubusercontent.com/62088928/201593185-d7af16e9-a708-4ad2-8f80-4cab778b9c84.jpg">
 
+#Switch App UI(loading)
+<img src="https://user-images.githubusercontent.com/62088928/214101856-0c035eac-81f1-4119-8f93-1a9622f9f51e.jpg">
+
 # Furniture App UI
 <img src="https://user-images.githubusercontent.com/62088928/201593017-909a1b0f-9448-46d7-99d2-4734f810df84.jpg" width=30% height=14%>      <img src="https://user-images.githubusercontent.com/62088928/201593030-50523e7d-96d8-488d-9496-6df9abcc6bc7.jpg" width=30% height=14%>
 
