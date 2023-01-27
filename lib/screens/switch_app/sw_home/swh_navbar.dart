@@ -46,16 +46,27 @@ class SwhNavBar extends StatelessWidget {
   Widget _navItemMiddle() => Column(
         mainAxisAlignment: MainAxisAlignment.end,
         children: [
-          Text(
-            '36%',
-            style: GoogleFonts.michroma(
-              textStyle: const TextStyle(
+          RichText(
+              text: TextSpan(children: [
+            TextSpan(
+              text: '36',
+              style: GoogleFonts.michroma(
+                textStyle: const TextStyle(
+                  fontSize: 20,
+                  color: Colors.white70,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+            ),
+            const TextSpan(
+              text: '%',
+              style: TextStyle(
                 fontSize: 20,
                 color: Colors.white70,
                 fontWeight: FontWeight.bold,
               ),
             ),
-          ),
+          ])),
           const SizedBox(height: 10),
           Text(
             'Brightness',
