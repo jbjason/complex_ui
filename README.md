@@ -1,7 +1,7 @@
 # MyDoc App UI
 <img width=30% height=14% src="https://user-images.githubusercontent.com/62088928/201593180-574efe57-50aa-4d8c-b01f-634d35090667.jpg">     <img width=30% height=14% src="https://user-images.githubusercontent.com/62088928/201593185-d7af16e9-a708-4ad2-8f80-4cab778b9c84.jpg">
 
-# Weather App UI
+# Weather App UI (loading)
 <img width=30% height=14% src="https://user-images.githubusercontent.com/62088928/216533361-c544e270-b58c-41ac-bd6e-7ee05c9629a6.jpg">
 
 # Switch App UI
