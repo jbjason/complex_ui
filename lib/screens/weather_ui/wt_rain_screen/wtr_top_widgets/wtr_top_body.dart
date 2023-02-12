@@ -15,16 +15,15 @@ class WtrTopBody extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.center,
       children: [
         const SizedBox(height: 20),
-        Text(
+        const Text(
           'Miami, FL',
-          style: GoogleFonts.bebasNeue(
-              textStyle: const TextStyle(color: Colors.white54)),
+          style: TextStyle(color: Colors.white54),
         ),
         Text(
           '30\u00B0',
           style: GoogleFonts.lobster(
             textStyle: const TextStyle(
-                fontWeight: FontWeight.w800, color: Colors.white, fontSize: 34),
+                fontWeight: FontWeight.w800, color: Colors.white, fontSize: 40),
           ),
         ),
         Expanded(
