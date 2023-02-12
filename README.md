@@ -1,11 +1,14 @@
 # MyDoc App UI
 <img width=30% height=14% src="https://user-images.githubusercontent.com/62088928/201593180-574efe57-50aa-4d8c-b01f-634d35090667.jpg">     <img width=30% height=14% src="https://user-images.githubusercontent.com/62088928/201593185-d7af16e9-a708-4ad2-8f80-4cab778b9c84.jpg">
 
-# Switch App UI(loading)
-<img src="https://user-images.githubusercontent.com/62088928/214101856-0c035eac-81f1-4119-8f93-1a9622f9f51e.jpg">
+# Weather App UI (loading)
+<img width=30% height=14% src="https://user-images.githubusercontent.com/62088928/216533361-c544e270-b58c-41ac-bd6e-7ee05c9629a6.jpg">
+
+# Switch App UI
+<img width=30% height=14% src="https://user-images.githubusercontent.com/62088928/215154017-37a525cf-094c-4ab7-b42e-e2cfa1b2c7cc.jpg">   <img width=30% height=14% src="https://user-images.githubusercontent.com/62088928/215154102-dec848b9-99ae-4ec6-a8da-35ca093726f9.jpg">
 
 # Furniture App UI
-<img src="https://user-images.githubusercontent.com/62088928/201593017-909a1b0f-9448-46d7-99d2-4734f810df84.jpg" width=30% height=14%>      <img src="https://user-images.githubusercontent.com/62088928/201593030-50523e7d-96d8-488d-9496-6df9abcc6bc7.jpg" width=30% height=14%>
+<img width=30% height=14% src="https://user-images.githubusercontent.com/62088928/201593017-909a1b0f-9448-46d7-99d2-4734f810df84.jpg"><img width=30% height=14% src="https://user-images.githubusercontent.com/62088928/201593030-50523e7d-96d8-488d-9496-6df9abcc6bc7.jpg">
 
 # 3D Cartoon UI
 <img width=30% height=14% src="https://user-images.githubusercontent.com/62088928/201593262-a6c758c8-0f7e-4215-80d7-30553f2b330e.jpg">       <img width=30% height=14% src="https://user-images.githubusercontent.com/62088928/201593266-be28896f-f93a-4154-a2cb-23ffbe407b6a.jpg">   <img width=30% height=14% src="https://user-images.githubusercontent.com/62088928/201594177-aef02dde-e0ea-47a2-bf0d-acf5514d374b.jpg">
