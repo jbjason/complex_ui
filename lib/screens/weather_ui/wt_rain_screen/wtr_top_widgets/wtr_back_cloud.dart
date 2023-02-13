@@ -14,11 +14,11 @@ class WtrBackCloud extends StatelessWidget {
           'assets/weather/cloud3.png',
           width: size.width * .8,
           height: size.height * .26,
-          color: cBackCloudColor,
+          color: rBodyTopColor,
           fit: BoxFit.fill,
         ),
         rBackColor,
-        cBackCloudColor,
+        rBodyTopColor,
       ),
     );
   }
