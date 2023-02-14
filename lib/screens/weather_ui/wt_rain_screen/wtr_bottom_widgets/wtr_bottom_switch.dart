@@ -33,26 +33,10 @@ class WtrBottomSwitch extends StatelessWidget {
           borderRadius: BorderRadius.circular(20),
           gradient: LinearGradient(
             colors: [
-              rBackSecondColor,
-              rBackSecondColor.withOpacity(0.8),
-              rBackSecondColor.withOpacity(0.5),
-              rBackSecondColor.withOpacity(0.3),
+              rBodyMiddleColor,
+              rBodyMiddleColor.withOpacity(0.8),
             ],
           ),
-          boxShadow: [
-            BoxShadow(
-              color: rNavColor.withOpacity(.3),
-              offset: const Offset(-0.5, 0.5),
-              blurRadius: 1.0,
-              spreadRadius: 1.0,
-            ),
-            BoxShadow(
-              color: rNavColor.withOpacity(0.3),
-              offset: const Offset(3.0, -3.0),
-              blurRadius: 1.0,
-              spreadRadius: 1.0,
-            ),
-          ],
         ),
         child: CustomPaint(painter: WtrSwitchPainter()),
       ),

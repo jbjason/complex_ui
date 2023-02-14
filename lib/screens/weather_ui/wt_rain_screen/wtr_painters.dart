@@ -56,7 +56,6 @@ class WtrSwitchPainter extends CustomPainter {
     final rect = Rect.fromLTRB(0, 0, w, h);
     final paint = Paint()..shader = gradinet.createShader(rect);
     final path = Path();
-
     path.moveTo(w * .2, h - 3);
     path.cubicTo(0, h / 2, w * .2, 0.0, w * .3, 0.0);
     path.cubicTo(w * .5, h * .1, w * .7, h * .1, w * .8, h * .1);
@@ -89,8 +88,8 @@ class WtrBottomPainter extends CustomPainter {
   void paint(Canvas canvas, Size size) {
     final h = size.height, w = size.width;
     const gradient1 = LinearGradient(
-      begin: Alignment.topCenter,
-      end: Alignment.bottomCenter,
+      begin: Alignment.topRight,
+      end: Alignment.bottomLeft,
       colors: [
         rBodyTopColor,
         rBodyMiddleColor,
@@ -105,6 +104,7 @@ class WtrBottomPainter extends CustomPainter {
     final shadowBody = _body(w, h, 0.0);
     final frontBody = _body(w, h, 6);
 
+    //
     const gradient2 = SweepGradient(
       colors: [
         rRainColor,

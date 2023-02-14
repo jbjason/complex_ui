@@ -47,10 +47,14 @@ class WtRainScreen extends StatelessWidget {
             height: size.height * .7,
             child: const WtrTopBody(),
           ),
+          // bottom snow top of NavBar
           Positioned(
             bottom: -size.height * .018,
             right: -20,
-            child: Image.asset('assets/weather/snow5.png', color: rSnowColor),
+            child: Image.asset(
+              'assets/weather/snow5.png',
+              color: rSnowColor,
+            ),
           ),
           // Nav Container
           Positioned(
