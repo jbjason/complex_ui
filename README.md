@@ -2,7 +2,7 @@
 <img width=30% height=14% src="https://user-images.githubusercontent.com/62088928/201593180-574efe57-50aa-4d8c-b01f-634d35090667.jpg">     <img width=30% height=14% src="https://user-images.githubusercontent.com/62088928/201593185-d7af16e9-a708-4ad2-8f80-4cab778b9c84.jpg">
 
 # Weather App UI (loading)
-<img width=30% height=14% src="https://user-images.githubusercontent.com/62088928/216533361-c544e270-b58c-41ac-bd6e-7ee05c9629a6.jpg">
+<img width=30% height=14% src="https://user-images.githubusercontent.com/62088928/216533361-c544e270-b58c-41ac-bd6e-7ee05c9629a6.jpg">  <img width=30% height=14% src="https://user-images.githubusercontent.com/62088928/219124940-d06baa2d-f1fc-4bca-8073-b952681e2f83.jpg">
 
 # Switch App UI
 <img width=30% height=14% src="https://user-images.githubusercontent.com/62088928/215154017-37a525cf-094c-4ab7-b42e-e2cfa1b2c7cc.jpg">   <img width=30% height=14% src="https://user-images.githubusercontent.com/62088928/215154102-dec848b9-99ae-4ec6-a8da-35ca093726f9.jpg">
